@@ -42,11 +42,11 @@ It has
       	     RI and TI                                             FF23
 
 8) Internal Memory Mappings,
-      ; 00h - 0fh bank 0/1 user access
-      ; 10h - 27h monitor scratch / monitor bank 2 (r0 - r7)
-      ; 28h - 3fh user scratch
-      ; 40h - 5fh monitor data
-      ; 60h - 7fh monitor stack
+  ; 00h - 0fh bank 0/1 user access
+  ; 10h - 27h monitor scratch / monitor bank 2 (r0 - r7)
+  ; 28h - 3fh user scratch
+  ; 40h - 5fh monitor data
+  ; 60h - 7fh monitor stack
         (For 8052/89C52 user can use additional Internal RAM from 80H to FFH.
         
 
