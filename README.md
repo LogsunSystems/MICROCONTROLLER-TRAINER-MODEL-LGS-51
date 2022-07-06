@@ -13,12 +13,12 @@ It has
 *  To develop the skills in applications using 8051 we have wide range of interfacing modules to select like ADC, DAC, stepper motor etc.
 
 ## hardware Details
-1)0000H To 1FFFH-8K			Monitor EPROM (Program Memory)
+    1)0000H To 1FFFH-8K			Monitor EPROM (Program Memory)
  
-2)2000H To 3FFFH-8K			Scratch Pad RAM Available to user,
+    2)2000H To 3FFFH-8K			Scratch Pad RAM Available to user,
                                                			after 27FFH. (Data Memory)
 
-3)8000H To FFFFH-32K                   	User RAM Battery backup.
+    3)8000H To FFFFH-32K                   	User RAM Battery backup.
                                                                	(Data Memory)
 
 4)  0003H Data memory                         CW for 8255
