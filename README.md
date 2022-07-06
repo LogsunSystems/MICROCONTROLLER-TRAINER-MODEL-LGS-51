@@ -47,7 +47,8 @@ It has
       ; 28h - 3fh user scratch
       ; 40h - 5fh monitor data
       ; 60h - 7fh monitor stack
-        (For 8052/89C52 user can use additional Internal RAM from 80H to FFH
+        (For 8052/89C52 user can use additional Internal RAM from 80H to FFH.
+        
 
 
 
