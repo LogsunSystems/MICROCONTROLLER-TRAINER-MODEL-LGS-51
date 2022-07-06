@@ -13,22 +13,22 @@ It has
 *  To develop the skills in applications using 8051 we have wide range of interfacing modules to select like ADC, DAC, stepper motor etc.
 
 ## hardware Details
-16X2 LCD Display.
-D8255AC-2  Programmable Peripheral Interface.
-AT89C55WD  8-bit Microcontroller.
-74LS138    Decoder/Demultiplexer.
-SN74LS245  Octal Bus Transceivers.
-SN74LS373  Octal Transparent Latch.
-DM74LS138 	Decoder/Demultiplexer.
-SN74LS00N 	Quadruple 2-Input Positive-NAND Gates.
-UT62256    32Kx8 bit Low Power CMOS Static RAM.
-D8253C     UPD8253.
-CH340G Module.
-LGSD12-50_V1.2 Module.
-DB9 connecter (male).
-USB connector.
-DIN connectors for keypad.
-CMOS Battery.
+* 16X2 LCD Display.
+* D8255AC-2  Programmable Peripheral Interface.
+* AT89C55WD  8-bit Microcontroller.
+* 74LS138    Decoder/Demultiplexer.
+* SN74LS245  Octal Bus Transceivers.
+* SN74LS373  Octal Transparent Latch.
+* DM74LS138 	Decoder/Demultiplexer.
+* SN74LS00N 	Quadruple 2-Input Positive-NAND Gates.
+* UT62256    32Kx8 bit Low Power CMOS Static RAM.
+* D8253C     UPD8253.
+* CH340G Module.
+* LGSD12-50_V1.2 Module.
+* DB9 connecter (male).
+* USB connector.
+* DIN connectors for keypad.
+* CMOS Battery.
 
 
 
