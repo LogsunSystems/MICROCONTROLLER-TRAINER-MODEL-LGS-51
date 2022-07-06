@@ -13,41 +13,25 @@ It has
 *  To develop the skills in applications using 8051 we have wide range of interfacing modules to select like ADC, DAC, stepper motor etc.
 
 ## hardware Details
-1)0000H To 1FFFH-8K			Monitor EPROM (Program Memory)
- 
-2)2000H To 3FFFH-8K			Scratch Pad RAM Available to user,
-                                               			after 27FFH. (Data Memory)
+16X2 LCD Display.
+D8255AC-2  Programmable Peripheral Interface.
+AT89C55WD  8-bit Microcontroller.
+74LS138    Decoder/Demultiplexer.
+SN74LS245  Octal Bus Transceivers.
+SN74LS373  Octal Transparent Latch.
+DM74LS138 	Decoder/Demultiplexer.
+SN74LS00N 	Quadruple 2-Input Positive-NAND Gates.
+UT62256    32Kx8 bit Low Power CMOS Static RAM.
+D8253C     UPD8253.
+CH340G Module.
+LGSD12-50_V1.2 Module.
+DB9 connecter (male).
+USB connector.
+DIN connectors for keypad.
+CMOS Battery.
 
-3)8000H To FFFFH-32K                   	User RAM Battery backup.
-                                                               	(Data Memory)
 
-4)  0003H Data memory                         CW for 8255
-     0000H                                                      Port A
-     0001H                                                      Port B
-     0002H                                                      Port C
 
-5)  0203H Data                                    	CW for 8253
-     0200H                                                   Channel 0
-     0201H                                                   Channel 1
-     0202H                                                   Channel 2
-
-6)  0400H LCD                                      		Display
-
-7)  Interrupt vector table for LGS 51 kit
-    		Interrupt                                     RAM Location
-      		INTO                                              FF03
-      		TFO                                                FFOB
-      		INT1                                               FF13
-      		TF1                                                 FF1B
-      	     RI and TI                                             FF23
-
-8) Internal Memory Mappings,
-  ;00h - 0fh bank 0/1 user access
-  ;10h - 27h monitor scratch / monitor bank 2 (r0 - r7)
-  ;28h - 3fh user scratch
-  ;40h - 5fh monitor data
-  ;60h - 7fh monitor stack
-  (For 8052/89C52 user can use additional Internal RAM from 80H to FFH.
         
 
 
