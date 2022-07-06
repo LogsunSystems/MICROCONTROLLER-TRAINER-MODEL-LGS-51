@@ -9,9 +9,50 @@ It has
 * 48I/O lINES from 8255 X 2 nos. of serial ports from 8051 and 8251, on board 8253. 14 I/O lines from 8051 CPU which is very useful for students to interface other devices directly to microcontroller like DAC, stepper motor, DC motor etc.
 *  built in Line assembler & disassembler.
 *  with the use of PS2 Type keyboard user can directly write/enter the program in assembly language.
-*  
+*  Can checked the entered code in mnemonics using disassembler facility.
+*  To develop the skills in applications using 8051 we have wide range of interfacing modules to select like ADC, DAC, stepper motor etc.
 
 ## hardware Details
+1)0000H To 1FFFH-8K			Monitor EPROM (Program Memory)
+ 
+2)2000H To 3FFFH-8K			Scratch Pad RAM Available to user,
+                                               			after 27FFH. (Data Memory)
+
+3)8000H To FFFFH-32K                   	User RAM Battery backup.
+                                                               	(Data Memory)
+
+4)  0003H Data memory                         CW for 8255
+     0000H                                                      Port A
+     0001H                                                      Port B
+     0002H                                                      Port C
+
+5)  0203H Data                                    	CW for 8253
+     0200H                                                   Channel 0
+     0201H                                                   Channel 1
+     0202H                                                   Channel 2
+
+6)  0400H LCD                                      		Display
+
+7)  Interrupt vector table for LGS 51 kit
+    		Interrupt                                     RAM Location
+      		INTO                                              FF03
+      		TFO                                                FFOB
+      		INT1                                               FF13
+      		TF1                                                 FF1B
+      	     RI and TI                                             FF23
+
+8) Internal Memory Mappings,
+      ; 00h - 0fh bank 0/1 user access
+      ; 10h - 27h monitor scratch / monitor bank 2 (r0 - r7)
+      ; 28h - 3fh user scratch
+      ; 40h - 5fh monitor data
+      ; 60h - 7fh monitor stack
+        (For 8052/89C52 user can use additional Internal RAM from 80H to FFH
+
+
+
+
+
 
 ### Monitor Command
 ### Serial Link Command
