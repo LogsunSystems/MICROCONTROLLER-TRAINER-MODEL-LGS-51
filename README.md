@@ -29,7 +29,38 @@ It has
 * USB connector.
 * DIN connectors for keypad.
 * CMOS Battery.
+### Table of Command Keys.
+Sr.no.           Keys                   Description
+_____________________________________________________________
+1                    S                       Substitute Data into RAM/ Read Data from Memory
 
+2                    C                      Compare Block/Data in Memory
+
+3                    P                       To Check Data of previous location in Substitute 
+                                               Command
+
+4                    M                       Move Block of memory within memory.
+
+5                    F                        Fill Data into memory Block
+
+6                    G / E                     To, Execute the program in full swing or single step
+
+7                    R                        To check/Modify register Bank & SFR
+
+8                    W                        Word Search of string of 4
+
+9                    I                          Serial Data in from PC or any terminal
+
+10                   O                         Serial Data out to PC or any Terminal
+
+11                   T                         Terminal mode to use trainer from any PC
+
+12                   Esc                       Return to Command mode
+
+13                   Enter                      To proceed to next step in any above command.
+
+14                                            All other keys are available to user
+________________________________________________
 
 
         
@@ -39,6 +70,5 @@ It has
 
 
 
-### Monitor Command
-### Serial Link Command
+
 
