@@ -12,7 +12,7 @@ It has
 *  Can checked the entered code in mnemonics using disassembler facility.
 *  To develop the skills in applications using 8051 we have wide range of interfacing modules to select like ADC, DAC, stepper motor etc.
 
-## hardware Details
+## Hardware Details
 * 16X2 LCD Display.
 * D8255AC-2  Programmable Peripheral Interface.
 * AT89C55WD  8-bit Microcontroller.
@@ -24,11 +24,13 @@ It has
 * UT62256    32Kx8 bit Low Power CMOS Static RAM.
 * D8253C     UPD8253.
 * CH340G Module.
-* LGSD12-50_V1.2 Module.
+* LGSD12-50_V1.2 Module. 
+* CMOS Battery.
+## System Reqirment.
 * DB9 connecter (male).
 * USB connector.
 * DIN connectors for keypad.
-* CMOS Battery.
+* 12V-2 Amp 50 Hz Power supply.
 
         
 
