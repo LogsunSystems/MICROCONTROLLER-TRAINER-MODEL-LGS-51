@@ -1,6 +1,6 @@
 # MICROCONTROLLER-TRAINER-MODEL-LGS-51
-User manual of microcontroller trainer model LGS-51
-## Introduction
+## User manual of microcontroller trainer model LGS-51.
+## Introduction.
 the LGS51 series Trainer is designed to be both useful and instructive in illustrating certain concepts commonly encountered in 8051/52-based development. Although many kits already exist, this kit is designed specifically to form the basis of thorough technical discussions and tutorials consistent with Experts in the field of Microcontroller development & Experience Faculties in Microcontroller Subject.
 The Kit is was developed with the 8031/51 in mind but can be used with any 40-pin 8052 pin-compatible derivative including the traditional true-blue 8052, 8051, 8032, 8031, 89C55WD, 89VRD2 etc.
 It has
