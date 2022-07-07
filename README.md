@@ -31,7 +31,7 @@ It has
 * USB connector.
 * DIN connectors for keypad.
 * 12V-2 Amp 50 Hz Power supply.
-* Data sheet
+* Data sheet.
 
 
         
